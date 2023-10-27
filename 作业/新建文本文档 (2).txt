@@ -1,0 +1,68 @@
+#include<stdio.h>
+int main()
+{
+    int t,i,x,y,z,a,b;
+    printf("请输入组数\n");
+    scanf("%d",&t);
+    for(i=1;i<=t;i++)
+    {
+        printf("请分别输入lyj现有的钱数和饮料单价:\n");
+    scanf("%d %d",&x,&y);
+    a=(int)(x/y);
+    b=(int)(a/3);
+    z=a+b;
+    printf("%d\n",z);
+    }
+
+    return 0;
+}
+   
+
+
+
+
+#include<stdio.h>
+int main()
+{
+    int t,i,x,y,a=0,b=0;
+    int k[10]={0};
+
+    scanf("%d",&t);
+    for(i=1;i<=t;i++)
+    {
+
+    scanf("%d %d",&x,&y);
+    a=(int)(x/y);
+    b=(int)(a/3);
+    k[i]=a+b;
+    }
+    printf("%d\n",k[i]);
+    return 0;
+}
+
+
+
+
+
+#include<stdio.h>
+int main()
+{
+    int t,i,x,y,z,a,b,c,d,h;
+    int k[i];
+    scanf("%d",&t);
+    for(i=1;i<=t;i++)
+    {
+    scanf("%d %d",&x,&y);
+    a=(int)(x/y);
+    b=(int)(a/3);
+    c=(b%3);
+    d=(b+c)/3;
+    z=a+b+d;
+    k[i]=z;
+    }
+    printf("%d\n",k[i]);
+
+    return 0;
+}
+
+//换出来的瓶子喝完又是空瓶子//
