@@ -1,11 +1,3 @@
-/*
- * @Author: STATICHIT 2394412110@qq.com
- * @Date: 2022-02-16 10:28:36
- * @LastEditors: STATICHIT 2394412110@qq.com
- * @LastEditTime: 2023-10-30 20:13:00
- * @FilePath: \刷题\寒假预备役\五.1.模板最小生成树.cpp
- * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
- */
 #include<bits/stdc++.h>
 using namespace std;
 
